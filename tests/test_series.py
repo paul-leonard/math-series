@@ -1,6 +1,6 @@
 from math_series.series import fibonacci
 from math_series.series import lucas
-#from math_series.series import sum_series
+from math_series.series import sum_series
 
 
 ######## Tests for fibonacci function ########
@@ -194,5 +194,5 @@ def test_sum_series_10():
 
 def test_sum_series_10():
   actual = sum_series(3,3,3)
-  expected != None
-  assert actual == expected
+  expected = None
+  assert actual != expected
